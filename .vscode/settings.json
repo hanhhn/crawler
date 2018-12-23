@@ -1,0 +1,13 @@
+{
+  "editor.formatOnSave": false,
+  "multiCommand.commands": [
+    {
+      "command": "multiCommand.saveFormatHero",
+      "sequence": [
+        "typescriptHero.imports.organize",
+        "editor.action.formatDocument",
+        "workbench.action.files.save"
+      ]
+    }
+  ]
+}
