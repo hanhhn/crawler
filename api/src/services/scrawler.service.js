@@ -1,7 +1,5 @@
-const request = require("request");
 const cheerio = require("cheerio");
-const promise = require("request-promise");
-var Promise = require("promise");
+const Promise = require("promise");
 const axios = require("axios");
 
 const phimmoiDomain = "http://www.phimmoi.net/";

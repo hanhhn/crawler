@@ -4,8 +4,8 @@ const bodyParser = require("body-parser");
 require("dotenv").load();
 const port = process.env.PORT || 3000;
 
-const mongoose = require("mongoose");
-const Task = require("./src/models/task.model"); //created model loading here
+// const mongoose = require("mongoose");
+// const Task = require("./src/models/task.model");
 
 // mongoose instance connection url connection
 // mongoose.Promise = global.Promise;

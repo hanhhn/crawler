@@ -1,8 +1,6 @@
 "use strict";
 module.exports = function(app) {
-  let hello = require("./routes/hello.routing");
-  hello(app);
-
-  let crawler = require("./routes/crawler.routing");
-  crawler(app);
+  var crawler = require("./controllers/crawler.controller");
+  app.route("/search/:keyword").get(crawler.search);
+  app.route("/watch/").get(crawler.get);
 };
